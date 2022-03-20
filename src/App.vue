@@ -18,4 +18,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.btn {
+  @apply bg-green-600 duration-300 font-bold py-2 px-4 rounded-lg inline-block;
+}
+
+.btn:hover {
+  @apply bg-green-700;
+}
+</style>
